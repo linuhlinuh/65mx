@@ -150,13 +150,13 @@ const ElementsPage = ({ data }, location) => {
             />
             <figcaption>Large image</figcaption>
           </figure>
-          <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.largePic.childImageSharp.fluid}
-              className="kg-image"
-            />
-            <figcaption>Full bleed image</figcaption>
-          </figure>
+          {/*<figure className="kg-card kg-image-card kg-width-full">*/}
+          {/*  <Img*/}
+          {/*    fluid={data.largePic.childImageSharp.fluid}*/}
+          {/*    className="kg-image"*/}
+          {/*  />*/}
+          {/*  <figcaption>Full bleed image</figcaption>*/}
+          {/*</figure>*/}
           <hr />
           <h2 id="table">Table</h2>
           <table>

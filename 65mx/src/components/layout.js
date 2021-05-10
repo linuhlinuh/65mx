@@ -27,14 +27,14 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>65</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>О Нас</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
+              {/*<li className="nav-elements" role="menuitem">*/}
+              {/*  <Link to={`/elements`}>Elements</Link>*/}
+              {/*</li>*/}
             </ul>
           </nav>
           <div className="site-head-center">
@@ -45,7 +45,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/profile.php?id=100001810402278"
                 title="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,21 +53,21 @@ const Layout = props => {
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://www.instagram.com/raccoonmx65"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Instagram
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
+              {/*<Link*/}
+              {/*  to={`/rss.xml`}*/}
+              {/*  title="RSS"*/}
+              {/*  target="_blank"*/}
+              {/*  rel="noopener noreferrer"*/}
+              {/*>*/}
+              {/*  RSS*/}
+              {/*</Link>*/}
             </div>
           </div>
         </div>
